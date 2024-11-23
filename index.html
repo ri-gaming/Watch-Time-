@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Watch Time!</title> 
+        <link rel="icon" href="img/wt_logo.png" type="image/icon type">
+        <link href="https://vjs.zencdn.net/8.0.4/video-js.css" rel="stylesheet"> 
+        <link rel="stylesheet" href="styles.css"> 
+    </head> 
+    <body> 
+        <div class="container">
+            <h1>Watch Time!</h1> 
+            <p>Upload your video to watch together.</p> 
+            <input 
+            type="file"
+            id="fileInput" 
+            accept=".mp4, .mkv, .avi, .webm, .mov, .flv">
+            <div class="video-container"> 
+                <video 
+                id="videoPlayer" 
+                class="video-js vjs-default-skin" 
+                controls preload="auto" 
+                width="800" 
+                height="450"></video> 
+                <button id="fullscreenButton">
+                Go Fullscreen
+                </button> 
+            </div> 
+            <div id="syncInstructions"> 
+                <p>Manual Sync:</p> 
+                <p>Both users upload the same video and start at the same time.</p> 
+            </div> 
+        </div> 
+        <script src="https://vjs.zencdn.net/8.0.4/video.min.js"></script> 
+        <script src="script.js"></script> 
+    </body> 
+</html>

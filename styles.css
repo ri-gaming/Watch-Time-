@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('img/WT.jpg');
+    background-repeat: no-repeat;
+    background-attachment:local;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 20px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin: 0px 20px 30px 20px;
+    color: #ffcb05;
+}
+
+p {
+    margin: 5px 0;
+}
+
+input[type="file"] {
+    display: block; 
+    width: 100px; 
+    margin: auto; 
+    padding: 10px 205px 5px 5px; 
+    text-align: center; 
+    text-decoration: none; 
+    border: none;
+    border-radius: 5px;
+}
+
+.video-container {
+    position: relative;
+    display: inline-block;
+}
+
+video {
+    border: 2px solid #ffcd0500;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#fullscreenButton {
+    background-color: #ffcb05;
+    color: black;
+    display: block;
+    width: 100px;
+    margin: 20px auto;
+    padding: 10px 1px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+}
+
+#fullscreenButton:hover {
+    background-color: #e0b204;
+}
+
+#syncInstructions {
+    margin-top: 20px;
+    background-color: #3333330a;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ff694e;
+}
+
